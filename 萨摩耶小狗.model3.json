@@ -6,13 +6,23 @@
 			"texture_00.png"
 		],
 		"Physics": "萨摩耶小狗.physics3.json",
-		"DisplayInfo": "萨摩耶小狗.cdi3.json"
+		"DisplayInfo": "萨摩耶小狗.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "萨摩耶小狗.idle.motion3.json"
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
-			"Ids": []
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
 		}
 	]
 }
