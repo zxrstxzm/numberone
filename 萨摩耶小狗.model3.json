@@ -6,35 +6,38 @@
 			"texture_00.png"
 		],
 		"Physics": "萨摩耶小狗.physics3.json",
-		"DisplayInfo": "萨摩耶小狗.cdi3.json",
-		"Motions": {
-			"Happy": [
-				{
-					"File": "开心.motion3.json"
-				}
-			],
-			"Wonder": [
-				{
-					"File": "疑惑.motion3.json"
-				}
-			],
-			"Funny": [
-				{
-					"File": "搞怪.motion3.json"
-				}
-			],
-			"Angry": [
-				{
-					"File": "生气.motion3.json"
-				}
-			]
-		}
+		"DisplayInfo": "萨摩耶小狗.cdi3.json"
+	},
+	"Motions": {
+		"Happy": [
+			{
+				"File": "开心.idle.motion3.json"
+			}
+		],
+		"Wonder": [
+			{
+				"File": "疑惑.idle.motion3.json"
+			}
+		],
+		"Funny": [
+			{
+				"File": "搞怪.idle.motion3.json"
+			}
+		],
+		"Angry": [
+			{
+				"File": "生气.idle.motion3.json"
+			}
+		]
 	},
 	"Groups": [
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": []
+		}
+	]
+}			"Ids": []
 		}
 	]
 }
