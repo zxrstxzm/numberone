@@ -7,23 +7,35 @@
 		],
 		"Physics": "萨摩耶小狗.physics3.json",
 		"DisplayInfo": "萨摩耶小狗.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "吐舌",
+				"File": "吐舌.exp3.json"
+			},
+			{
+				"Name": "爱心",
+				"File": "爱心.exp3.json"
+			},
+			{
+				"Name": "丧",
+				"File": "丧.exp3.json"
+			}
+		],
 		"Motions": {
-			"Happy": [
+			"Idle": [
 				{
-					"File": "开心.idle.motion3.json"
+					"File": "开心.idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
 				}
 			],
-			"Wonder": [
+			"Tap": [
 				{
 					"File": "疑惑.idle.motion3.json"
-				}
-			],
-			"Funny": [
+				},
 				{
 					"File": "搞怪.idle.motion3.json"
-				}
-			],
-			"Angry": [
+				},
 				{
 					"File": "生气.idle.motion3.json"
 				}
@@ -35,6 +47,19 @@
 			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "Part",
+			"Name": "Body"
 		}
 	]
 }
