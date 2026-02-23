@@ -7,6 +7,20 @@
 		],
 		"Physics": "萨摩耶小狗.physics3.json",
 		"DisplayInfo": "萨摩耶小狗.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "吐舌",
+				"File": "吐舌.exp3.json"
+			},
+			{
+				"Name": "爱心",
+				"File": "爱心.exp3.json"
+			},
+			{
+				"Name": "丧",
+				"File": "丧.exp3.json"
+			}
+		],
 		"Motions": {
 			"Idle": [
 				{
@@ -27,12 +41,6 @@
 			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": [] 
-		}
-	],
-	"HitAreas": [
-		{
-			"Id": "Part",
-			"Name": "Body"
 		}
 	]
 }
