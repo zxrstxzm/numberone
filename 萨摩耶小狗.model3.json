@@ -3,14 +3,29 @@
 	"FileReferences": {
 		"Moc": "萨摩耶小狗.moc3",
 		"Textures": [
-			"texture_00.png"
+			"萨摩耶小狗.2048/texture_00.png"
 		],
 		"Physics": "萨摩耶小狗.physics3.json",
 		"DisplayInfo": "萨摩耶小狗.cdi3.json",
 		"Motions": {
-			"Idle": [
+			"Happy": [
 				{
-					"File": "萨摩耶小狗.idle.motion3.json"
+					"File": "开心.motion3.json"
+				}
+			],
+			"Wonder": [
+				{
+					"File": "疑惑.motion3.json"
+				}
+			],
+			"Funny": [
+				{
+					"File": "搞怪.motion3.json"
+				}
+			],
+			"Angry": [
+				{
+					"File": "生气.motion3.json"
 				}
 			]
 		}
