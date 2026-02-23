@@ -40,6 +40,28 @@
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "Part",
+			"Name": "Body"
+		}
+	]
+}		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
 			"Ids": [] 
 		}
 	]
