@@ -68,9 +68,6 @@
 				{
 					"File": "生气.idle.motion3.json"
 				}
-			]
-		}
-	},
 	"Groups": [
 		{
 			"Target": "Parameter",
@@ -91,4 +88,4 @@
 			"Name": "Body"
 		}
 	]
-}
+
