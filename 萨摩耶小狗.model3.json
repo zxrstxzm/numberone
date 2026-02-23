@@ -2,9 +2,7 @@
 	"Version": 3,
 	"FileReferences": {
 		"Moc": "萨摩耶小狗.moc3",
-		"Textures": [
-			"texture_00.png"
-		],
+		"Textures": ["texture_00.png"],
 		"Physics": "萨摩耶小狗.physics3.json",
 		"DisplayInfo": "萨摩耶小狗.cdi3.json",
 		"Expressions": [
