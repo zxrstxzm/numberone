@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "SDwhite cat free.moc3",
 		"Textures": [
-			"SDwhite cat free.2048/texture_00.png"
+			"texture_00.png"
 		],
 		"Physics": "SDwhite cat free.physics3.json",
 		"DisplayInfo": "SDwhite cat free.cdi3.json",
