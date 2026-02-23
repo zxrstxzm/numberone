@@ -44,3 +44,13 @@
 		}
 	]
 }
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [] 
+		}
+	]
+}
