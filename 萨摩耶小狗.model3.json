@@ -2,43 +2,22 @@
 	"Version": 3,
 	"FileReferences": {
 		"Moc": "萨摩耶小狗.moc3",
-		"Textures": [
-			"texture_00.png"
-		],
+		"Textures": ["texture_00.png"],
 		"Physics": "萨摩耶小狗.physics3.json",
 		"DisplayInfo": "萨摩耶小狗.cdi3.json",
 		"Expressions": [
-			{
-				"Name": "吐舌",
-				"File": "吐舌.exp3.json"
-			},
-			{
-				"Name": "爱心",
-				"File": "爱心.exp3.json"
-			},
-			{
-				"Name": "丧",
-				"File": "丧.exp3.json"
-			}
+			{ "Name": "吐舌", "File": "吐舌.exp3.json" },
+			{ "Name": "爱心眯眼", "File": "爱心.exp3.json" },
+			{ "Name": "丧", "File": "丧.exp3.json" }
 		],
 		"Motions": {
 			"Idle": [
-				{
-					"File": "开心.idle.motion3.json",
-					"FadeInTime": 0.5,
-					"FadeOutTime": 0.5
-				}
+				{ "File": "开心.idle.motion3.json", "FadeInTime": 0.5, "FadeOutTime": 0.5 }
 			],
-			"Tap": [
-				{
-					"File": "疑惑.idle.motion3.json"
-				},
-				{
-					"File": "搞怪.idle.motion3.json"
-				},
-				{
-					"File": "生气.idle.motion3.json"
-				}
+			"Special": [
+				{ "File": "疑惑.idle.motion3.json" },
+				{ "File": "搞怪.idle.motion3.json" },
+				{ "File": "生气.idle.motion3.json" }
 			]
 		}
 	},
@@ -47,19 +26,6 @@
 			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": []
-		},
-		{
-			"Target": "Parameter",
-			"Name": "LipSync",
-			"Ids": [
-				"ParamMouthOpenY"
-			]
-		}
-	],
-	"HitAreas": [
-		{
-			"Id": "Part",
-			"Name": "Body"
 		}
 	]
 }
