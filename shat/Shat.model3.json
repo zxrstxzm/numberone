@@ -1,14 +1,14 @@
 {
 	"Version": 3,
 	"FileReferences": {
-		"Moc": "砂糖天使-免费版.moc3",
+		"Moc": "Shat.moc3",
 		"Textures": [
-			"砂糖天使-免费版.8192/texture_00.png",
-			"砂糖天使-免费版.8192/texture_01.png",
-			"砂糖天使-免费版.8192/texture_02.png"
+			"texture_00.png",
+			"texture_01.png",
+			"texture_02.png"
 		],
-		"Physics": "砂糖天使-免费版.physics3.json",
-		"DisplayInfo": "砂糖天使-免费版.cdi3.json"
+		"Physics": "Shat.physics3.json",
+		"DisplayInfo": "Shat.cdi3.json"
 	},
 	"Groups": [
 		{
