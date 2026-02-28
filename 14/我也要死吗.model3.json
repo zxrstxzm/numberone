@@ -10,7 +10,6 @@
 		"DisplayInfo": "我也要死吗.cdi3.json",
 		"Expressions": [
 			{ "Name": "X嘴", "File": "X嘴.exp3.json" },
-			{ "Name": "关闭水印", "File": "关闭水印.exp3.json" },
 			{ "Name": "口水", "File": "口水.exp3.json" },
 			{ "Name": "吐舌嘴", "File": "吐舌嘴.exp3.json" },
 			{ "Name": "我也要死吗", "File": "我也要死吗.exp3.json" },
@@ -32,7 +31,12 @@
 			{ "Name": "颤抖嘴", "File": "颤抖嘴.exp3.json" },
 			{ "Name": "黑眼圈", "File": "黑眼圈.exp3.json" },
 			{ "Name": "黑脸", "File": "黑脸.exp3.json" }
-		]
+		],
+		"Motions": {
+			"Idle": [
+				{ "File": "关闭水印.motion3.json" }
+			]
+		}
 	},
 	"Groups": [
 		{
