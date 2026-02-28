@@ -15,6 +15,11 @@
             "Id": "Param4",
             "Value": 1.0,
             "Blend": "Add"
+        },
+        {
+            "Id": "CheekPuff2",
+            "Value": 1.0,
+            "Blend": "Add"
         }
     ]
 }
