@@ -4,6 +4,7 @@
 		"Moc": "砂糖天使-免费版.moc3",
 		"Textures": [
 			"texture_00.png",
+			"texture_01.png",
 			"texture_02.png"
 		],
 		"Physics": "Shat.physics3.json",
