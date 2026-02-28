@@ -5,6 +5,11 @@
             "Id": "Param35",
             "Value": 30.0,
             "Blend": "Add"
+        },
+        {
+            "Id": "规范2",
+            "Value": 1.0,
+            "Blend": "Add"
         }
     ]
 }
