@@ -3,8 +3,8 @@
 	"FileReferences": {
 		"Moc": "我也要死吗.moc3",
 		"Textures": [
-			"我也要死吗.2048/texture_00.png",
-			"我也要死吗.2048/texture_01.png"
+			"texture_00.png",
+			"texture_01.png"
 		],
 		"Physics": "我也要死吗.physics3.json",
 		"DisplayInfo": "我也要死吗.cdi3.json"
