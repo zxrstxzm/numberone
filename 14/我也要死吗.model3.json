@@ -31,12 +31,7 @@
 			{ "Name": "颤抖嘴", "File": "颤抖嘴.exp3.json" },
 			{ "Name": "黑眼圈", "File": "黑眼圈.exp3.json" },
 			{ "Name": "黑脸", "File": "黑脸.exp3.json" }
-		],
-		"Motions": {
-			"Idle": [
-				{ "File": "关闭水印.motion3.json" }
-			]
-		}
+		]
 	},
 	"Groups": [
 		{
@@ -54,6 +49,12 @@
 				"ParamMouthForm",
 				"ParamMouthOpenY"
 			]
+		}
+	],
+	"Parameters": [
+		{
+			"Id": "规范2",
+			"Value": 1.0
 		}
 	]
 }
